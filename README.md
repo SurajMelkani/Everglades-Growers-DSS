@@ -6,15 +6,15 @@ Interactive decision-support system predicting soil organic matter, subsidence r
 
 ---
 
-### 🎓 Academic Context
-This Decision Support System (DSS) is a specialized research tool developed as part of doctoral research at the University of Florida within the Department of Soil, Water, and Ecosystem Sciences. It serves as a digital twin to broader investigations into the drivers of soil carbon stability in South Florida, utilizing machine learning and spectroscopy approaches.
+###  Context
+This Decision Support System (DSS) is a specialized research tool developed as part of  research at the University of Florida within the Department of Soil, Water, and Ecosystem Sciences. It serves as a digital twin to broader investigations into the drivers of soil carbon stability in South Florida, utilizing machine learning and spectroscopy approaches.
 
 > **🚨 NOTE ON DEMONSTRATION MODE**
 > The core predictive machine learning models driving this architecture were trained on a rigorous library of 700+ EAA Histosol samples. Because this research is currently pending academic publication, the live prediction engine has been temporarily replaced with a representative baseline model. The fully calibrated `.joblib` model and `.csv` datasets will be integrated upon publication.
 
 ---
 
-### 🛠️ Technical Core & Methodology
+### Technical Core & Methodology
 The platform integrates several advanced components into a single interactive interface:
 
 * **Spatial Predictive Modeling:** Utilizes a coordinate-based model architecture to estimate Soil Organic Matter dynamics and Soil Depth across the diverse landscape of the EAA.
@@ -24,5 +24,5 @@ The platform integrates several advanced components into a single interactive in
 
 ---
 
-### 🧪 Future Research Integration 
+### Future Research Integration 
 Future iterations of this DSS are designed to expand the predictive loop by integrating high-resolution earth observation data. This includes incorporating multispectral imagery to further refine spatial subsidence risk and soil health indicators.
