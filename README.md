@@ -1,4 +1,4 @@
-# 🌾 EAA Growers DSS: Spatial Decision Support for Soil Health
+# 🌾 EAA Growers Decisison Support System
 
 Interactive decision-support system predicting soil organic matter, subsidence risk, and management guidance based on spatial selection within the Everglades Agricultural Area (EAA).
 
