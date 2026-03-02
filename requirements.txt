@@ -1,7 +1,0 @@
-streamlit
-folium
-streamlit-folium
-geopandas
-shapely
-numpy
-pandas
