@@ -1,34 +1,27 @@
-# EAA-Growers-DSS
-Interactive decision-support system that predicts soil organic matter, subsidence risk, and management guidance based on spatial selection within the EAA.
+🌾 EAA Growers DSS: Spatial Decision Support for Soil Health
+Interactive decision-support system predicting soil organic matter, subsidence risk, and management guidance based on spatial selection within the Everglades Agricultural Area (EAA).
 
-Launch Live Decision Support System
-[https://eaa-growers-dss.streamlit.app/](https://dss-eaa-growers.streamlit.app/)
+🎓 Academic Context
+This Decision Support System (DSS) is a specialized research tool developed as part of doctoral research at the University of Florida within the Department of Soil, Water, and Ecosystem Sciences. It serves as a digital twin to broader investigations into the drivers of soil carbon stability in South Florida, utilizing machine learning and spectroscopy approaches.
 
-
-This Everglades Growers Decision Support System (DSS) is a specialized research tool developed as part of your PhD candidacy at the University of Florida within the Department of Soil, Water, and Ecosystem Sciences.
-
-It is important to note that this application is currently a functional prototype and research demonstration; it is not intended for general public or commercial agricultural use at this stage.
+🚨 NOTE ON DEMONSTRATION MODE
+The core predictive machine learning models driving this architecture were trained on a rigorous library of 700+ EAA Histosol samples. Because this research is currently pending academic publication, the live prediction engine has been temporarily replaced with a representative baseline model. This allows users to explore the interface, mass-balance logic, and spatial mapping capabilities safely. The fully calibrated .joblib model and .csv datasets will be integrated upon publication.
 
 🛠️ Technical Core & Methodology
-The platform integrates several advanced components of your research into a single interactive interface:
+The platform integrates several advanced components into a single interactive interface:
 
-Spatial Predictive Modeling: The system utilizes a coordinate-based model to estimate Soil Organic Matter (SOM) and Soil Depth across the diverse landscape of the Everglades Agricultural Area (EAA).
+Spatial Predictive Modeling: Utilizes a coordinate-based model architecture to estimate Soil Organic Matter (SOM) and Soil Depth across the diverse landscape of the EAA.
 
-Carbon Dynamics Logic: The backend contains the core mathematical models you developed to calculate carbon sequestration potential and CO₂ emission offsets based on specific crop selections and soil profiles.
+Carbon Dynamics Logic: The backend contains mathematical models designed to calculate carbon sequestration potential and CO₂ emission offsets based on specific crop selections, soil depths, and historical profiles.
 
-Management Protocol Engine: The guidance provided is driven by a diagnostic logic that interprets soil health indicators—such as pH and SOM levels—to suggest targeted Best Management Practices (BMPs).
+Management Protocol Engine: Provides guidance driven by a diagnostic logic that interprets soil health indicators (such as pH and SOM levels) to suggest targeted Best Management Practices (BMPs).
 
-Precision Geography: By leveraging GeoPandas and Folium, the app allows for high-fidelity spatial selection, enabling growers to draw specific field boundaries for localized analysis.
+Precision Geography: Leverages GeoPandas and Folium for high-fidelity spatial selection, enabling growers to draw specific field boundaries for localized, aggregated analysis.
 
-🧪 Research Context
-This DSS serves as a digital twin of your broader academic work focused on:
+🧪 Future Research Integration
+Future iterations of this DSS are designed to expand the predictive loop by integrating high-resolution earth observation data. This includes incorporating multispectral imagery collected via FAA Part 107 Remote Pilot drone operations to further refine spatial subsidence risk and soil health indicators.
 
-Soil Organic Carbon Dynamics: Understanding the drivers of carbon stability in South Florida's unique muck soils.
+🚀 Explore the Project
+Launch Live Decision Support System
 
-Machine Learning Integration: Using data-driven approaches to predict subsidence risk and soil health indicators.
-
-Remote Sensing: Future iterations are designed to integrate data collected via your FAA Part 107 Remote Pilot operations, bringing high-resolution drone imagery into the predictive loop.
-
-View the Code & Methodology:
-🚀 Launch Live Decision Support System
-📂 Explore the Technical Repository
+Explore the Technical Repository (Link your GitHub repo URL here)
