@@ -1,0 +1,11 @@
+# ==========================================================
+# 🚨 PROPRIETARY DATA PLACEHOLDER 🚨
+# ==========================================================
+# The raw calibration dataset containing 700+ EAA Histosol 
+# samples is currently withheld pending academic publication.
+# 
+# Upon publication, this file will be populated with the 
+# fully annotated dataset, formatted with the following headers:
+#
+# Sample_ID, Latitude, Longitude, Depth_cm, pH, TC_g_kg, SOC_g_kg, HCl_hyd_g_kg, POXC_g_kg
+# ==========================================================
