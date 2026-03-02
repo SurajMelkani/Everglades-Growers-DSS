@@ -1,0 +1,7 @@
+[BINARY MODEL PLACEHOLDER]
+
+This file location is reserved for the compiled machine learning pipeline trained on the Everglades Agricultural Area (EAA) Histosol library.
+
+To protect intellectual property prior to the formal publication of this PhD research, the actual serialized model weights, preprocessing scalars, and coefficients have been omitted from this public repository. 
+
+The fully calibrated, operational .joblib file will be released and synced to this repository alongside the peer-reviewed paper.
