@@ -13,14 +13,15 @@ This Decision Support System (DSS) is a specialized research tool developed as p
 > The core predictive machine learning models driving this architecture were trained on a rigorous library of 700+ EAA Histosol samples. Because this research is currently pending academic publication, the live prediction engine has been temporarily replaced with a representative baseline model. The fully calibrated `.joblib` model and `.csv` datasets will be integrated upon publication.
 
 ---
+## Model & Data Availability
 
-### Technical Core & Methodology
-The platform integrates several advanced components into a single interactive interface:
+The core predictive machine learning models used in this architecture were trained on a curated library of more than 700 Histosol samples from the Everglades Agricultural Area.
 
-* **Spatial Predictive Modeling:** Utilizes a coordinate-based model architecture to estimate Soil Organic Matter dynamics and Soil Depth across the diverse landscape of the EAA.
-* **Carbon Dynamics Logic:** The backend contains mathematical models designed to calculate carbon sequestration potential and CO₂ emission offsets based on specific crop selections and soil depths.
-* **Management Protocol Engine:** Provides guidance driven by a diagnostic logic that interprets soil health indicators (such as pH and SOM levels) and soil depth to suggest targeted Best Management Practices.
-* **Precision Geography:** Leverages `GeoPandas` and `Folium` for high-fidelity spatial selection, enabling growers to draw specific field boundaries for localized, aggregated analysis.
+Because this research is currently pending peer-reviewed academic publication, the deployed version of the application operates using a representative baseline demonstration model. The fully calibrated .joblib model and associated .csv calibration datasets are not included in this public repository.
+
+This repository contains demonstration placeholder files only.
+
+Research-grade trained models and calibration data may be made available upon request for academic collaboration, subject to publication timelines and data-sharing agreements.
 
 ---
 
